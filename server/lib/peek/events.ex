@@ -21,6 +21,14 @@ defmodule Peek.Events do
     Repo.all(Event)
   end
 
+  def get_events(date) do
+    query =
+      Event
+      |> where([event], fragment("DATE(?)", event.start) == ^date)
+
+    Repo.all(query)
+  end
+
   @doc """
   Create a new Event.
 

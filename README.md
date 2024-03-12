@@ -1,3 +1,17 @@
+# Peek Challenge Notes
+
+<img src="./peek-challenge-screen-recording.gif" width="500">
+
+What's included:
+- Requirements + extras.
+- Adapted tailwindcss templates found around the web.
+
+What's missing given the 4-hour constraint:
+- User timezone based querying and displaying.
+- Booking input validation.
+- Proper client componentization (all into a single component).
+- Proper testing.
+
 # Full-Stack Take-Home Challenge
 
 ![peek-graphql-ember](https://gist.github.com/MartinBeuriot/6e208cd6645066547de9c7b96b9fad86/raw/fb812b50edc8b4d6a8644b1956239672a373175a/fs-challenge.png)

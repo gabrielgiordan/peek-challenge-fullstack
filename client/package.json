@@ -31,8 +31,13 @@
     "@ember/optional-features": "^2.0.0",
     "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^3.2.1",
+    "@embroider/compat": "^3.4.6",
+    "@embroider/core": "^3.4.6",
+    "@embroider/webpack": "^3.2.2",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.18",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.2.2",
     "ember-apollo-client": "^4.1.1",
@@ -64,19 +69,23 @@
     "eslint-plugin-qunit": "^8.0.1",
     "graphql": "^16.8.1",
     "loader.js": "^4.7.0",
+    "postcss": "^8.4.35",
+    "postcss-loader": "^8.1.1",
     "prettier": "^3.2.2",
     "qunit": "^2.20.0",
     "qunit-dom": "^2.0.0",
     "stylelint": "^16.1.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-prettier": "^5.0.0",
+    "tailwindcss": "^3.4.1",
     "tracked-built-ins": "^3.3.0",
-    "webpack": "^5.89.0"
+    "webpack": "^5.90.3"
   },
   "engines": {
     "node": ">= 18"
   },
   "ember": {
     "edition": "octane"
-  }
+  },
+  "dependencies": {}
 }

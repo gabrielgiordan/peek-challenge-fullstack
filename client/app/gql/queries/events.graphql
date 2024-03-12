@@ -1,5 +1,5 @@
-query {
-  events {
+query GetEvents($dateISOString: Date!) {
+  events(date: $dateISOString) {
     id
     title
     start

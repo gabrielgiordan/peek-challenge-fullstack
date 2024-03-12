@@ -1,1 +1,5 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+/* ember-cli expects styles/app.css to exist, but we do not want any css inside of this file. Just an empty app.css is required.
+
+We cannot delete this directory or file and we cannot import from this directory so for all intents and purposes this directory does not exist.
+
+Hopefully we can delete it one day. */

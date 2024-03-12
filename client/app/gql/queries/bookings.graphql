@@ -1,0 +1,6 @@
+query GetBookings($eventId: Int!) {
+  bookings(event_id: $eventId) {
+    firstName
+    lastName
+  }
+}
